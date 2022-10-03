@@ -1,0 +1,20 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+background: red;
+background-color: red;
+}
+
+.card__image {
+    width: 150px;
+    height: 150px;
+    position: relative;
+}
+
+.card__image .img__try {
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
