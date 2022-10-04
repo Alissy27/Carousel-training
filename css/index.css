@@ -31,3 +31,38 @@
     width: 600px;
     margin: 0 auto;;
  }
+
+ .slider-container-three {
+    overflow: hidden;
+    background-color: rgb(236, 189, 225);
+
+ }
+
+ .slider-track-three {
+    display: flex;
+    background-color: yellow;
+    transition: .2s;
+ }
+
+ .slider-item {
+    height: 100px;
+    min-width: 200px;
+ }
+
+
+ .slider-item:nth-child(3n+1) {
+    background-color: brown;
+ }
+ .slider-item:nth-child(3n+2) {
+    background-color: blueviolet;
+ }
+
+ .slider-item:nth-child(3n+3) {
+    background-color: greenyellow;
+ }
+
+
+ .slider-buttons {
+    text-align: center;
+ }
+
